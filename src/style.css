@@ -95,6 +95,52 @@ header {
   object-fit: fill;
 }
 
+/* Projects */
+#projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.project {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid var(--text-color);
+  border-radius: 12px;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  text-decoration: none;
+}
+
+.project:hover {
+  border-color: var(--first-alt-color)
+}
+
+.project-title {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+.project-description {
+  padding-left: 20px;
+  padding-right: 20px;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+/* Contact */
 #contact {
   padding-top: 100px;
   padding-bottom: 50px;
